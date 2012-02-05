@@ -1,0 +1,10 @@
+Description:
+   Install simple_inbox gem to application.
+
+Example:
+    rails generate simple_inbox::install
+
+    This will create:
+        app/models/message.rb
+        app/models/message_copy.rb
+        app/controllers/messages_controller.rb
