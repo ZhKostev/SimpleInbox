@@ -1,0 +1,2 @@
+module SimpleInbox
+end
