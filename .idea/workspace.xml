@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9048d58c-4783-4714-937f-999d8dd9e588" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/db/migrate/message_install_migration.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/controllers/messages_controller.rb" afterPath="$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/controllers/messages_controller.rb" />
     </list>
     <ignored path="simple_inbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="message.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/models/message.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="35" selection-start="3287" selection-end="3358" vertical-scroll-proportion="-12.096774">
+            <state line="4" column="12" selection-start="158" selection-end="168" vertical-scroll-proportion="-1.9354838">
               <folding />
             </state>
           </provider>
@@ -49,21 +49,16 @@
       <file leaf-file-name="messages_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/controllers/messages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1328431930000" expanded="true" signature="24:1548" placeholder=" ... end" />
-                <marker date="1328431930000" expanded="true" signature="1390:1544" placeholder=" ... end" />
-                <marker date="1328431930000" expanded="true" signature="1413:1538" placeholder="do ... end" />
-                <marker date="1328431930000" expanded="true" signature="1429:1530" placeholder="if ... end" />
-              </folding>
+            <state line="48" column="36" selection-start="1212" selection-end="1238" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="27" selection-start="584" selection-end="584" vertical-scroll-proportion="0.6">
+            <state line="14" column="27" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+            <state line="8" column="33" selection-start="485" selection-end="485" vertical-scroll-proportion="0.3305785">
               <folding />
             </state>
           </provider>
@@ -132,7 +127,6 @@
         <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/models/message_copy.rb" />
         <option value="$PROJECT_DIR$/app/controllers/messages_controller.rb" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/lib/generators/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/USAGE" />
@@ -140,6 +134,8 @@
         <option value="$PROJECT_DIR$/MIT-LICENSE" />
         <option value="$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/db/migrate/message_install_migration.rb" />
         <option value="$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/controllers/messages_controller.rb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -511,37 +507,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="35" selection-start="3287" selection-end="3358" vertical-scroll-proportion="-12.096774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/models/message_copy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="18" selection-start="1496" selection-end="1508" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1328430566000" expanded="true" signature="17:2054" placeholder=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/controllers/messages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1328431930000" expanded="true" signature="24:1548" placeholder=" ... end" />
-            <marker date="1328431930000" expanded="true" signature="1390:1544" placeholder=" ... end" />
-            <marker date="1328431930000" expanded="true" signature="1413:1538" placeholder="do ... end" />
-            <marker date="1328431930000" expanded="true" signature="1429:1530" placeholder="if ... end" />
           </folding>
         </state>
       </provider>
@@ -576,7 +546,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="584" selection-end="584" vertical-scroll-proportion="0.6">
+        <state line="14" column="27" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/models/message.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="158" selection-end="168" vertical-scroll-proportion="-1.9354838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/controllers/messages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="36" selection-start="1212" selection-end="1238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="485" selection-end="485" vertical-scroll-proportion="0.3305785">
           <folding />
         </state>
       </provider>

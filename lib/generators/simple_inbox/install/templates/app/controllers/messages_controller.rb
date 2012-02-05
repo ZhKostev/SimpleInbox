@@ -18,6 +18,7 @@ class MessagesController < ApplicationController
 
   def create
     @message = Message.new(params[:message])
+    @message.sender = current_user
     prepare_message_recipients
     if @message.save
       redirect_to messages_path, :notice => 'Message was successfully created.'
