@@ -1,29 +1,24 @@
-h2. Overview
+<h2> Overview</h2>
 This is very simple gem for inbox messages. It support rails 3.1 and higher.
 It creates sceleton of inbox messging. It fully customized(all files copied to your app).
 
-<<<<<<< HEAD
-<h2>INSTALL</h2>
-=======
-h2. INSTALL
->>>>>>> 3f7923ac1a613c0293bd7a2ed230d0f174c88705
-1) add gem 'simple_inbox', :git => 'git://github.com/ZhKostev/SimpleInbox.git' to Gemfile
-2) run rails generate simple_inbox:install
+<h2> INSTALL</h2>
+
+1) add <pre>gem 'simple_inbox', :git => 'git://github.com/ZhKostev/SimpleInbox.git' to Gemfile</pre>
+2) run <pre>rails generate simple_inbox:install</pre>
 3) add to routes
-    resources :messages, :only => [:index, :show, :new, :create] do
+<pre>resources :messages, :only => [:index, :show, :new, :create] do
         collection do
             post :mark_as
         end
-    end
-
-That's all!
-WARNING!
+    end</pre>
+<h3>That's all!</h3>
+<h4>WARNING!</h4>
 Gem not implement attachments to message and also has stub in message controller 'prepare_message_recipients'
 
-<<<<<<< HEAD
+
 <h2>Customisation</h2>
-=======
-h2. Customisation
->>>>>>> 3f7923ac1a613c0293bd7a2ed230d0f174c88705
+
 1) If your create Account model instead of User your can customize message.rb and set
-    USER_MODEL = 'Account'
+    <pre>USER_MODEL = 'Account'</pre>
+
