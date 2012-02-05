@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9048d58c-4783-4714-937f-999d8dd9e588" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIT-LICENSE" afterPath="$PROJECT_DIR$/MIT-LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple_inbox.gemspec" afterPath="$PROJECT_DIR$/simple_inbox.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/simple_inbox.iml" afterPath="$PROJECT_DIR$/.idea/simple_inbox.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb" />
     </list>
     <ignored path="simple_inbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +29,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="message.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/message.rb">
+        <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/models/message.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="88" column="35" selection-start="3287" selection-end="3358" vertical-scroll-proportion="-12.096774">
               <folding />
@@ -36,7 +38,7 @@
         </entry>
       </file>
       <file leaf-file-name="message_copy.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/message_copy.rb">
+        <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/models/message_copy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="18" selection-start="1496" selection-end="1508" vertical-scroll-proportion="0.0">
               <folding>
@@ -47,7 +49,7 @@
         </entry>
       </file>
       <file leaf-file-name="messages_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/controllers/messages_controller.rb">
+        <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/controllers/messages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
               <folding>
@@ -60,17 +62,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
+      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="0" selection-end="457" vertical-scroll-proportion="0.0">
+            <state line="9" column="17" selection-start="372" selection-end="372" vertical-scroll-proportion="0.37190083">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="USAGE" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/USAGE">
+        <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/USAGE">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="43" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
               <folding />
@@ -87,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MIT-LICENSE" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MIT-LICENSE" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MIT-LICENSE">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="545" selection-end="545" vertical-scroll-proportion="0.45454547">
+            <state line="13" column="34" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,6 +131,7 @@
         <option value="$PROJECT_DIR$/lib/generators/install/USAGE" />
         <option value="$PROJECT_DIR$/simple_inbox.gemspec" />
         <option value="$PROJECT_DIR$/MIT-LICENSE" />
+        <option value="$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb" />
       </list>
     </option>
   </component>
@@ -223,7 +226,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="simple_inbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_inbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_inbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_inbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,8 +273,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -315,6 +360,24 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <created>1328427372237</created>
@@ -406,14 +469,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/message.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/models/message.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="35" selection-start="3287" selection-end="3358" vertical-scroll-proportion="-12.096774">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/message_copy.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/models/message_copy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="18" selection-start="1496" selection-end="1508" vertical-scroll-proportion="0.0">
           <folding>
@@ -429,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/controllers/messages_controller.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/templates/app/controllers/messages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
           <folding>
@@ -441,14 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="0" selection-end="457" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/USAGE">
+    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/USAGE">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="43" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
           <folding />
@@ -464,7 +520,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MIT-LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="545" selection-end="545" vertical-scroll-proportion="0.45454547">
+        <state line="13" column="34" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/simple_inbox/install/install_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="372" selection-end="372" vertical-scroll-proportion="0.37190083">
           <folding />
         </state>
       </provider>
