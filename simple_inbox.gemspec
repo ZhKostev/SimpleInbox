@@ -7,7 +7,7 @@ require "simple_inbox/version"
 Gem::Specification.new do |s|
   s.name        = "simple_inbox"
   s.version     = SimpleInbox::VERSION
-  s.authors     = ["Zhenya Kostev"]
+  s.authors     = ["Zhenya Kostev", 'model code and idea by A.Eliseev']
   s.email       = ["zh.kostev@gmail.com"]
   s.summary     = "SimpleInbox gem is very simple gem for messaging in rails > 3.1 apps"
   s.description = "SimpleInbox gem is very simple gem for messaging in rails > 3.1 apps.
