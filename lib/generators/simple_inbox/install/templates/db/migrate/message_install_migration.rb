@@ -11,7 +11,7 @@ class MessageInstallMigration < ActiveRecord::Migration
       t.integer :recipient_id
       t.integer :sender_id
       t.integer :message_id
-      t.boolean :deleted
+      t.boolean :deleted, :default => false
       t.datetime :read_at
 
       t.timestamps

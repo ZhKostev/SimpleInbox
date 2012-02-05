@@ -2,14 +2,15 @@ class MessagesController < ApplicationController
   before_filter :find_message_copy, :only => [:show]
 
   def index
-    case params[:message_type]
+    @messages = case params[:message_type]
       when 'sent' then
         MessageCopy.sent(current_user)
       when 'trash' then
         MessageCopy.trash(current_user)
       else
         MessageCopy.inbox(current_user)
-    end
+                end
+    @unread_messages_count = @messages.unread.count
   end
 
   def new
@@ -28,6 +29,7 @@ class MessagesController < ApplicationController
   end
 
   def show
+    @message.mark_as_read(current_user)
   end
 
   def mark_as
@@ -37,7 +39,7 @@ class MessagesController < ApplicationController
                when 'deleted' then 'mark_as_deleted'
              end
     mark_messages(params[:messages_ids], method)
-    redirect_to messages_path, :notice => "Message was marked as #{params[:message_status]}."
+    redirect_to messages_path(:message_type => params[:message_type]), :notice => "Message was marked as #{params[:message_status]}."
   end
 
   private
@@ -55,7 +57,7 @@ class MessagesController < ApplicationController
   def mark_messages(messages_ids, method)
     messages_ids.each do |m_id|
       if (message_copy = MessageCopy.find_by_id(m_id)).present?
-        message_copy.send(method)
+        message_copy.send(method, current_user)
       end
     end
   end

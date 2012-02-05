@@ -103,8 +103,6 @@ class Message < ActiveRecord::Base
     self.message_copies = []
     self.recipients.each do |model|
       copy = self.message_copies.build(:sender_id => sender_id, :recipient_id => model.id)
-      copy.draft = true if copy.sender_id.present? && copy.sender_id == copy.recipient_id && self.draft == "1"
-      copy.draft = false if copy.sender_id.present? && copy.sender_id == copy.recipient_id && self.draft == "0"
     end
   end
 
