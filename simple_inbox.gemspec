@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
                    recipients.
                    MessageCopy belongs to message and has delegated methods: body, subject, sender e.t.c "
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.textile"]
 
   s.add_dependency "rails", "~> 3.1"
 
