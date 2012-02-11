@@ -12,7 +12,7 @@ It creates sceleton of inbox messging. It fully customized(all files copied to y
             post :mark_as
         end
     end</pre>
-<h3>That's all!</h3>
+<h3>Now you remove gem from Gemfile and That's all! You have sceleton of inbox messging</h3>
 <h4>WARNING!</h4>
 Gem not implement attachments to message and also has stub in message controller 'prepare_message_recipients'
 
